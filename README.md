@@ -46,4 +46,4 @@ This database uses Inquirer, Mysql2, and console.table npm module. I also used A
 
 ## Please see attached links to Repository and Walkthrough Video:
 ### https://github.com/jdanleano/Track-My-Employee
-### 
+### https://youtu.be/9GiHT2rkbXA
