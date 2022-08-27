@@ -266,7 +266,7 @@ function byEmployees() {
 
 };
 
-// "View all employees by department",
+// "View alL departments",
 function byDepartment() {
 
     var department = connection.query("SELECT department.id, department.d_name FROM employee LEFT JOIN role on employee.role_id = role.id LEFT JOIN department department on role.department_id = department.id WHERE department.id;",
@@ -279,7 +279,7 @@ function byDepartment() {
         })
 };
 
-// "View all employees by manager",
+// "View all roles",
 function byRole() {
 
     var manager = connection.query("SELECT employee.id, role.title, department.d_name AS department, role.salary AS manager FROM employee LEFT JOIN role on employee.role_id = role.id LEFT JOIN department on role.department_id = department.id LEFT JOIN employee manager on manager.id = employee.manager_id;",
